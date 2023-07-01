@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yumfood/static/css/main.542ea74e.css",
+    "main.js": "/yumfood/static/js/main.768e9346.js",
+    "index.html": "/yumfood/index.html",
+    "main.542ea74e.css.map": "/yumfood/static/css/main.542ea74e.css.map",
+    "main.768e9346.js.map": "/yumfood/static/js/main.768e9346.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542ea74e.css",
+    "static/js/main.768e9346.js"
+  ]
+}
