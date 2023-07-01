@@ -1,0 +1,19 @@
+li{
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    text-align: justify;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
