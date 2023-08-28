@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yumfood/static/css/main.4657ac61.css",
-    "main.js": "/yumfood/static/js/main.939250ea.js",
+    "main.js": "/yumfood/static/js/main.2223fb25.js",
     "index.html": "/yumfood/index.html",
     "main.4657ac61.css.map": "/yumfood/static/css/main.4657ac61.css.map",
-    "main.939250ea.js.map": "/yumfood/static/js/main.939250ea.js.map"
+    "main.2223fb25.js.map": "/yumfood/static/js/main.2223fb25.js.map"
   },
   "entrypoints": [
     "static/css/main.4657ac61.css",
-    "static/js/main.939250ea.js"
+    "static/js/main.2223fb25.js"
   ]
 }
