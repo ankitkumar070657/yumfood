@@ -11,7 +11,7 @@ import { BsFillCartFill, BsPerson } from "react-icons/bs";
 const TopNav = () => {
   const [SideNav, setSideNav] = useState(false);
   return (
-    <div className="max-w-[1520px] mx-auto flex justify-between items-center p-4">
+    <div className=" m-auto flex justify-between items-center p-4 ">
       <div className="flex items-center">
         <div onClick={() => setSideNav(!SideNav)} className="cursor-pointer">
           <AiOutlineMenu size={25} />
@@ -25,7 +25,7 @@ const TopNav = () => {
           </p>
           <p className="text-bold p-2 gap-5">Delivery</p>
         </div>
-        <div className="bg-gray-200 ml-20 px-2 rounded-full flex items-center w-[300px] ">
+        <div className=" bg-gray-200 rounded-full flex items-center  mx-2 px-2 w-[200px] sm:w-[400px] lg:w-[500px]   ">
           <AiOutlineSearch size={20} />
           <input
             className="bg-transparent p-2 w-full focus:outline-none"
@@ -34,12 +34,12 @@ const TopNav = () => {
           />
         </div>
       </div>
-      <button className="bg-orange-700 text-white rounded-full md:flex items-center py-2 px-2">
+      <button className="bg-orange-700 text-white  hidden sm:flex items-center p-2 rounded-full ">
         <BsFillCartFill size={20} />
         cart
       </button>
       {SideNav ? (
-        <div className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0"></div>
+        <div className="bg-black/60 fixed w-full h-screen z-10 top-0 left-0" onClick={()=>setSideNav(!SideNav)}></div>
       ) : (
         ""
       )}
@@ -58,31 +58,31 @@ const TopNav = () => {
         <h2 className="text-2xl p-4 ">Yum<span className="text-orange-700 font-bold">Eat</span></h2>
         <nav>
         <ul className="flex flex-col p-4 text-gray-900">
-        <li className="text-xl py-4 flex">
+        <li className="text-xl py-4 flex  hover:bg-blue-100 rounded-full px-2">
         <BsPerson size={25}
         className='mr-4 text-white bg-black rounded-full'/>
         My Account
         </li>
 
-        <li className="text-xl py-4 flex">
+        <li className="text-xl py-4 flex  hover:bg-blue-100 rounded-full px-2">
         <BsPerson size={25}
         className='mr-4 text-white bg-black rounded-full'/>
         My Favourite
         </li>
 
-        <li className="text-xl py-4 flex">
+        <li className="text-xl py-4 flex  hover:bg-blue-100 rounded-full px-2">
         <BsPerson size={25}
         className='mr-4 text-white bg-black rounded-full'/>
         My Wallet
         </li>
 
-        <li className="text-xl py-4 flex">
+        <li className="text-xl py-4 flex  hover:bg-blue-100 rounded-full px-2">
         <BsPerson size={25}
         className='mr-4 text-white bg-black rounded-full'/>
         Delevery
         </li>
 
-        <li className="text-xl py-4 flex">
+        <li className="text-xl py-4 flex  hover:bg-blue-100 rounded-full px-2">
         <BsPerson size={25}
         className='mr-4 text-white bg-black rounded-full'/>
         Help

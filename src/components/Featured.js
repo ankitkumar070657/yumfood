@@ -3,13 +3,13 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
   const Featured = () => {
     const sliders=[
         {
-            url:'https://source.unsplash.com/kfDsMDyX1K0/200'
+            url:'https://source.unsplash.com/40OJLYVWeeM'
         },
         {
-            url:'https://fastly.picsum.photos/id/54/3264/2176.jpg?hmac=blh020fMeJ5Ru0p-fmXUaOAeYnxpOPHnhJojpzPLN3g'
+            url:'https://source.unsplash.com/AcA8moIiD3g'
         },
         {
-            url:'https://source.unsplash.com/kfDsMDyX1K0/200'
+            url:'https://source.unsplash.com/wiCEuDu3UYU'
         },
     ]
     const[currentIndex, setCurrentIndex]=useState(0)
@@ -29,7 +29,7 @@ const nextSlider=()=>{
 
 
   return (
-    <div className='max-w-[150 last:0px] h-[500px] w-full py-2 relative group pl-2 pr-2'>
+    <div className=' h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] w-full py-0 px-4 m-auto relative  group '>
     <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 '
     style={{backgroundImage:`url(${sliders[currentIndex].url})`}}
     ></div>

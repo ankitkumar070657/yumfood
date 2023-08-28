@@ -18,6 +18,7 @@ function App() {
       <TopPicks/>
       <Meal/>
       <Categories/>
+      <Footer/>
     </div>
   );
 }
